@@ -145,5 +145,14 @@ Key attributes include:
 
 ---
 
-## 📁 Project Structure
+## ✅ Skills Demonstrated
+
+- Power BI Dashboard Development  
+- Power Query (Data Cleaning & Transformation)  
+- DAX Measures & KPIs  
+- Data Modeling  
+- Healthcare Analytics  
+- MIS & Executive Reporting  
+
+---
 
