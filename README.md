@@ -1,8 +1,8 @@
-# 🏥 Hospital Analytics Dashboard (Power BI Project)
+# 🏥 Hospital Emergency Room Dashboard (Power BI Project)
 
-This project presents an **interactive Hospital Analytics Dashboard** built using **Power BI**, designed to analyze **hospital operations, patient data, and key healthcare KPIs**.
+This project presents an **interactive Hospital Emergency Room (ER) Analytics Dashboard** built using **Power BI** to analyze **patient flow, wait times, satisfaction levels, referrals, demographics, and admission patterns**.
 
-The dashboard enables stakeholders to monitor **patient flow, department performance, admission trends, and operational efficiency** through clear and dynamic visualizations.
+The dashboard transforms raw hospital data into **clear, actionable insights** that support **operational efficiency, resource planning, and patient experience improvement**.
 
 This project is highly relevant for **Data Analyst, BI Analyst, MIS Executive, and Healthcare Analytics roles**.
 
@@ -16,26 +16,28 @@ This project is highly relevant for **Data Analyst, BI Analyst, MIS Executive, a
 
 ## 🎯 Project Objectives
 
-- Analyze **hospital performance metrics**
-- Track **patient admissions and discharges**
-- Monitor **department-wise workload**
-- Identify **trends and operational bottlenecks**
-- Enable **data-driven healthcare decision-making**
+- Analyze **Emergency Room performance**
+- Monitor **patient wait time and satisfaction**
+- Identify **peak busy periods**
+- Understand **referral and admission patterns**
+- Analyze **patient demographics**
+- Support **data-driven hospital operations**
 
 ---
 
 ## 📦 Dataset Overview
 
-The dataset includes hospital-related information such as:
+- **Time Period:** April 2023 – October 2024 (19 Months)
+- **Total Unique Patients:** 9,216
+- **Data Type:** Emergency Room visit-level data
 
-- Patient Details  
-- Admission & Discharge Dates  
-- Department / Ward Information  
-- Treatment Status  
-- Length of Stay  
-- Key Operational Metrics  
-
-The data was cleaned, modeled, and visualized entirely using **Power BI**.
+Key attributes include:
+- Visit Date & Time
+- Patient Demographics
+- Wait Time
+- Satisfaction Score
+- Referral Department
+- Admission Status
 
 ---
 
@@ -43,26 +45,92 @@ The data was cleaned, modeled, and visualized entirely using **Power BI**.
 
 ### 🔹 1. Data Cleaning & Transformation
 - Data cleaning using **Power Query**
+- Standardized date, time, and categorical fields
 - Handling missing and inconsistent values
-- Standardizing date and categorical fields
-- Creating calculated columns
+- Created derived columns for time-based analysis
 
 ### 🔹 2. Data Modeling
-- Establishing relationships between tables
-- Applying **star schema** principles
-- Optimizing model performance
+- Relationship creation between tables
+- Optimized schema for performance
+- Time intelligence setup for monthly and consolidated views
 
-### 🔹 3. DAX Calculations
-- Patient count KPIs
-- Average length of stay
-- Department-level metrics
-- Trend and comparison measures
+### 🔹 3. DAX Measures
+- Average Wait Time
+- Patient Satisfaction Score
+- Total & Unique Patient Counts
+- Admission vs Discharge Metrics
+- Peak Hour & Peak Day Indicators
 
-### 🔹 4. Dashboard Development
-- KPI cards for high-level metrics
-- Interactive charts and tables
-- Slicers for dynamic filtering
-- User-friendly and management-ready layout
+### 🔹 4. Dashboard Design
+- Monthly View
+- Consolidated View
+- Patient Details View
+- Key Takeaways Section
+- Interactive slicers for dynamic analysis
+
+---
+
+## 📊 Key Insights (Dashboard Findings)
+
+### 🔹 Descriptive Analysis
+- The Emergency Room dataset covers **19 months** and includes **9,216 unique patients**, indicating high data volume and consistent ER usage.
+
+### 🔹 Patient Wait Time & Satisfaction
+- **Average wait time:** 35.3 minutes, indicating scope for improving patient flow.
+- **Average satisfaction score:** 4.99 / 10, suggesting moderate satisfaction and highlighting improvement opportunities.
+
+### 🔹 Departmental Referrals
+- **5,400 patients** did not require referrals.
+- Most common referrals:
+  - General Practice: **1,840 cases**
+  - Orthopedics: **995 cases**
+  - Followed by Physiotherapy and Cardiology.
+
+### 🔹 Peak Busy Periods
+- **Busiest days:**  
+  - Mondays (1,377)  
+  - Saturdays (1,322)  
+  - Tuesdays (1,318)
+- **Busiest hours:**  
+  - 11 AM, 7 PM, 1 PM, and 11 PM  
+- Indicates need for **adequate staffing during peak hours**.
+
+### 🔹 Patient Demographics
+- Largest age group: **Adults (30–39 years)** with ~1,200 patients.
+- Followed by **Young Adults (20–29 years)** with 1,188 patients.
+- Significant presence of middle-aged patients (40–50 years).
+
+### 🔹 Race Distribution
+- White: **2,573**
+- African American: **1,951**
+- Multiracial: **1,557**
+- Asian: **1,060**
+- A notable number of patients declined to specify race.
+
+### 🔹 Admission Patterns
+- **4,612 patients** were admitted.
+- **4,604 patients** were treated and released.
+- Indicates a nearly **50–50 split**, highlighting balanced ER case severity.
+
+---
+
+## 💡 Business & Operational Recommendations
+
+### 1️⃣ Improve Patient Flow
+- Reduce wait times through better triage and queue management.
+- Introduce fast-track lanes for non-critical cases.
+
+### 2️⃣ Optimize Staffing
+- Increase staffing during peak hours and busy days.
+- Align shift schedules with demand patterns.
+
+### 3️⃣ Departmental Resource Planning
+- Allocate more resources to General Practice and Orthopedics.
+- Improve referral coordination to reduce delays.
+
+### 4️⃣ Enhance Patient Experience
+- Focus on reducing wait time to improve satisfaction.
+- Use satisfaction data to identify service gaps.
 
 ---
 
@@ -72,43 +140,10 @@ The data was cleaned, modeled, and visualized entirely using **Power BI**.
 - **Power Query**
 - **DAX**
 - **Data Modeling**
-- **Interactive Dashboard Design**
+- **Healthcare KPI Design**
+- **Interactive Dashboard Development**
 
 ---
 
-## 📊 Key Insights
-
-- Certain departments handle significantly higher patient volumes
-- Admission trends vary by time period
-- Length of stay differs across departments
-- Operational load is concentrated in specific wards
-- Interactive filters help quickly identify performance gaps
-
----
-
-## 💡 Business & Operational Recommendations
-
-### 1️⃣ Improve Resource Allocation
-- Allocate staff based on department-wise patient load
-- Optimize ward capacity planning
-
-### 2️⃣ Enhance Operational Efficiency
-- Monitor length of stay to reduce bottlenecks
-- Identify departments requiring process improvements
-
-### 3️⃣ Support Data-Driven Decisions
-- Use dashboard KPIs for daily MIS reporting
-- Enable leadership to track hospital performance in real time
-
----
-## ✅ Skills Demonstrated
-
-- Power BI Dashboard Development  
-- Power Query (Data Cleaning & Transformation)  
-- DAX Measures & KPIs  
-- Data Modeling  
-- MIS & KPI Reporting  
-- Business Insight Generation  
-
----
+## 📁 Project Structure
 
