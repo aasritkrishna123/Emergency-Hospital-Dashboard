@@ -159,4 +159,6 @@ Key attributes include:
 
 ![Hospital Emergency Room Dashboard](https://github.com/aasritkrishna123/Emergency-Hospital-Dashboard/blob/main/Screenshot%202026-01-03%20210258.png)
 
+![Hospital Emergency Room Dashboard](https://github.com/aasritkrishna123/Emergency-Hospital-Dashboard/blob/main/Screenshot%202026-01-03%20210241.png)
+
 ---
